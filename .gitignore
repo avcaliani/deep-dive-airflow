@@ -1,18 +1,13 @@
-# OS files
-.DS_Store
+# IDEs and OS files 👨‍💻
+.vscode/
+.idea/
+*.DS_Store
 
-# IDEs
-.vscode
-.idea
+# Data 💾
+data/
 
-# Dev Stuff
-datalake
-logs
-output
-data
-
-# Python
-.venv
+# Python 🐍
+.venv/
 *.manifest
 *.spec
 __pycache__/
