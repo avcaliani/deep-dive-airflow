@@ -98,6 +98,7 @@ services:
     - [Astronomer - What is an Operator?](https://www.astronomer.io/docs/learn/what-is-an-operator)
     - [Some Operators](https://airflow.apache.org/docs/apache-airflow/stable/howto/operator/index.html)
 - Upgrading from **v2 ➡ v3**
+  - [v3 Announcements](https://airflow.apache.org/blog/airflow-three-point-oh-is-here)
   - [Architectural Differences](https://airflow.apache.org/docs/apache-airflow/stable/installation/upgrading_to_airflow3.html)  
     _A key change in this repo: the Sequential Executor was replaced by the LocalExecutor,  
     which can still be used with SQLite for local development._

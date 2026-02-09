@@ -1,9 +1,5 @@
 services:
 
-  
-  # https://airflow.apache.org/docs/apache-airflow/stable/howto/set-config.html
-  
-  # Airflow Home: /opt/airflow/
   airflow:
     image: airflow-dev
     build: .
@@ -12,21 +8,5 @@ services:
       - 8080:8080
     volumes:
       - ../dags/:/opt/airflow/dags
-      - ../scripts/:/opt/airflow/scripts/
+      - ../scripts/:/opt/app/scripts/
       - ../data:/data
-
-
-# # https://hub.docker.com/r/dpage/pgadmin4
-#   pgadmin:
-#     image: dpage/pgadmin4:9.12
-#     container_name: pgadmin
-#     ports:
-#       - 5050:80
-#     environment:
-#       PGADMIN_DEFAULT_EMAIL: "admin@pgadmin.com"
-#       PGADMIN_DEFAULT_PASSWORD: "password"  
-
-# https://airflow.apache.org/blog/airflow-three-point-oh-is-here/
-# Airflow Logs
-# Can be used in a ELK Stack for monitoring and alerting
-# https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/logging-tasks.html
