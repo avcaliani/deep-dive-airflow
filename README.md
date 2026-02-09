@@ -2,7 +2,7 @@
 
 # Airflow
 
-![License](https://img.shields.io/github/license/avcaliani/hello-airflow?color=lightseagreen)
+![License](https://img.shields.io/github/license/avcaliani/deep-dive-airflow?color=lightseagreen)
 ![Python](https://img.shields.io/badge/python-3.13-3776AB?style=flat&logo=python&logoColor=white)
 ![Airflow](https://img.shields.io/badge/airflow-3.x.x-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 
@@ -29,11 +29,6 @@ docker-compose down
 
 > [!TIP]
 > Airflow will be running at `http://localhost:8080` 🌎
-
----
-
-> [!WARNING]
-> This image is outdated! Soon it will have a new version.
 
 ![screenshot](.docs/screenshot.png)
 
