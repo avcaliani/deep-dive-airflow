@@ -38,7 +38,7 @@ def the_office_daily_etl():
 
     @task.bash(retries=2, retry_delay=duration(minutes=1))
     def prank_report():
-        return f"{APP_PATH}/office/generate_prank_report.sh {LAKE_PATH}"
+        return f"{APP_PATH}/office/prank_report.sh {LAKE_PATH}"
 
     @task.bash(retries=1, retry_delay=duration(seconds=15))
     def security_check():
